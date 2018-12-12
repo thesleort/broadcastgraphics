@@ -30,57 +30,17 @@
       transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
       transform-style: preserve-3d;
     }
-    .gwd-div-mgvy {
-      position: absolute;
-      width: 1100px;
-      top: 600px;
-      height: 150px;
-      transform-origin: 550px 75px 0px;
-      background-image: none;
-      left: 0px;
-      background-color: rgb(255, 255, 255);
-    }
-    .gwd-img-1e94 {
-      position: absolute;
-      width: 250px;
-      height: 292px;
-      background-image: none;
-      background-color: transparent;
-      left: 100px;
-      top: 400px;
-      transform-origin: 125px 145.994px 0px;
-      z-index: 99;
-    }
-    .gwd-div-mq54 {
-      position: absolute;
-      background-image: none;
-      background-color: rgb(130, 26, 29);
-      height: 12px;
-      left: 0px;
-      top: 550px;
-      width: 1050px;
-      transform-style: preserve-3d;
-    }
-    .gwd-div-1fjw {
-      position: absolute;
-      background-image: none;
-      background-color: rgb(130, 26, 29);
-      height: 20px;
-      top: 600px;
-      left: 0px;
-      width: 1200px;
-    }
     .gwd-div-qsje {
       position: absolute;
       background-image: none;
       background-color: rgb(31, 76, 45);
       height: 12px;
       left: 0px;
-      top: 575px;
       width: 900px;
       transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1);
       transform-style: preserve-3d;
       animation: none 0s ease 0s infinite normal none running;
+      top: 175px;
     }
     .gwd-p-1hdw {
       height: auto;
@@ -111,7 +71,7 @@
         animation-timing-function: ease-in-out;
       }
     }
-    .htmlNoPages .gwd-gen-lc8ngwdanimation {
+    [data-gwd-group="plane"] .gwd-gen-lc8ngwdanimation {
       animation: gwd-gen-lc8ngwdanimation_gwd-keyframes 4s linear 0s infinite normal forwards running;
     }
     @keyframes gwd-gen-4nuvgwdanimation_gwd-keyframes {
@@ -144,18 +104,73 @@
         animation-timing-function: ease-in-out;
       }
     }
-    .htmlNoPages .gwd-gen-4nuvgwdanimation {
+    [data-gwd-group="plane"] .gwd-gen-4nuvgwdanimation {
       animation: gwd-gen-4nuvgwdanimation_gwd-keyframes 4s linear 0s infinite normal forwards running;
     }
+    [data-gwd-group="plane"] .gwd-grp-jzdo.gwd-div-mgvy {
+      position: absolute;
+      background-image: none;
+      background-color: rgb(255, 255, 255);
+      height: 93px;
+      left: 0px;
+      width: 1200px;
+      transform-origin: 599.7px 46.4706px 0px;
+      top: 200px;
+    }
+    [data-gwd-group="plane"] .gwd-grp-jzdo.gwd-img-1e94 {
+      position: absolute;
+      width: 250px;
+      height: 292px;
+      background-image: none;
+      background-color: transparent;
+      left: 100px;
+      transform-origin: 125px 145.994px 0px;
+      z-index: 99;
+      top: 0px;
+    }
+    [data-gwd-group="plane"] .gwd-grp-jzdo.gwd-div-mq54 {
+      position: absolute;
+      background-image: none;
+      background-color: rgb(130, 26, 29);
+      height: 12px;
+      left: 0px;
+      width: 1050px;
+      transform-style: preserve-3d;
+      top: 150px;
+    }
+    [data-gwd-group="plane"] .gwd-grp-jzdo.gwd-div-1fjw {
+      position: absolute;
+      background-image: none;
+      background-color: rgb(130, 26, 29);
+      height: 20px;
+      width: 1200px;
+      left: 0px;
+      top: 200px;
+    }
+    [data-gwd-group="plane"] {
+      width: 1200px;
+      height: 292.996px;
+    }
+    .gwd-div-km6r {
+      position: absolute;
+      left: 0px;
+      top: 400px;
+    }
   </style>
+  <script type="text/javascript" src="groups_runtime.min.1.0.js" gwd-groups-version="1.0"></script>
 </head>
 
 <body class="htmlNoPages">
-  <div class="gwd-div-mgvy"></div>
-  <img class="gwd-img-1e94 gwd-gen-1bx5gwdanimation" src="assets/bulldogs_logo.png">
-  <div class="gwd-div-mq54 gwd-gen-lc8ngwdanimation"></div>
-  <div class="gwd-div-1fjw gwd-gen-xj0wgwdanimation"></div>
-  <div class="gwd-div-qsje gwd-gen-4nuvgwdanimation"></div>
+  <template id="gwd-group-definitions">
+    <div data-gwd-group-def="plane" data-gwd-group-class="gwd-grp-jzdo" style="display: none;">
+      <div class="gwd-div-mgvy gwd-grp-jzdo"></div>
+      <img class="gwd-img-1e94 gwd-gen-1bx5gwdanimation gwd-grp-jzdo" src="assets/bulldogs_logo.png">
+      <div class="gwd-div-mq54 gwd-gen-lc8ngwdanimation gwd-grp-jzdo"></div>
+      <div class="gwd-div-1fjw gwd-gen-xj0wgwdanimation gwd-grp-jzdo"></div>
+      <div class="gwd-div-qsje gwd-gen-4nuvgwdanimation gwd-grp-jzdo"></div>
+    </div>
+  </template>
+  <div class="gwd-div-km6r" data-gwd-group="plane"></div>
 </body>
 
 </html>
